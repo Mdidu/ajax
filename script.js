@@ -8,7 +8,7 @@ xhttp.onreadystatechange = function () {
         // document.getElementById('main').innerHTML = this.responseText;
         var text = this.responseText;
         var text2 = JSON.parse(text);
-        alert(text2.name);
+        //alert(text2.name);
     }
 };
 // true = asynchrone
